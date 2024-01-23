@@ -43,6 +43,7 @@ st.text_input("Your name", key="name")
 
 #creating sidebar 
 # Add a selectbox to the sidebar:
+
 add_selectbox = st.sidebar.selectbox(
     'How would you like to be contacted?',
     ('Email', 'Home phone', 'Mobile phone')
