@@ -1,4 +1,5 @@
 #importing required libaries 
+
 import plotly.graph_objects as go
 import streamlit as st
 import pandas as pd
@@ -6,6 +7,7 @@ import pickle
 import numpy as np
 
 #reading  data
+
 def get_cleaned_data():
    data = pd.read_csv('..\data\data.csv')
 
