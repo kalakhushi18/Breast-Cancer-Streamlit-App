@@ -6,6 +6,7 @@ Here's our first attempt at using data to create a table:
 import streamlit as st
 import pandas as pd
 import numpy as np
+import time
 
 st.write("Here's our first attempt at using data to create a table:")
 df = pd.DataFrame({
@@ -56,8 +57,7 @@ add_slider = st.sidebar.slider(
 )
 
 #adding progress bar
-import streamlit as st
-import time
+
 
 'Starting a long computation...'
 
